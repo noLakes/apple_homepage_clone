@@ -1,0 +1,150 @@
+* {
+  font-family: Lucida Grande, Lucida Sans Unicode, Helvetica, Arial, Verdana, sans-serif;
+}
+
+body {
+  margin: 0
+}
+
+#global-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+}
+
+#top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 538px;
+  max-height: 100%;
+  background: url(images/your_verse_hero.jpg) 50% 100% no-repeat;
+}
+
+#nav-container {
+  display: flex;
+  margin-top: 83px;
+  flex-direction: row;
+  width: 980px;
+  height: 36px;
+}
+
+#nav-container button {
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  border-width: 0 1px 0px 0px;
+  border-style: solid;
+  border-color: black;
+  /*background-image: linear-gradient(black, green 25%, red 50%, white);*/
+  background-image: linear-gradient(#5e5e5e, #707070 40%, #8d8d8d);
+}
+
+#nav-container button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+#nav-container button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(#5e5e5e, #707070 80%, #8d8d8d);
+}
+
+#search-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  background-image: linear-gradient(#5e5e5e, #707070 40%, #8d8d8d);
+  border-radius: 0 4px 4px 0px;
+}
+
+#search-container img {
+  position: absolute;
+  fill: white;
+  width: 12px;
+  top: 12px;
+  left: 23px;
+  color-adjust: white;
+}
+
+#search-container input {
+  width: 80px;
+  padding-left: 22px;
+  background-image: linear-gradient(black, #707070 15%, #8d8d8d);
+  border: 1px;
+  margin: 9px 16px 0px 16px;
+  border-radius: 12px;
+  height: 15px;
+}
+
+#heading {
+  margin: 30px 0 20px 0;
+}
+
+#sub-heading {
+  margin: -30px 0 28px 0;
+}
+
+#link-heading:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#product-link-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#product-link-container a {
+  width: 25%;
+}
+
+#product-link-container a img {
+  width: 100%;
+}
+
+#footer-container {
+  display: flex;
+  width: 70%;
+  align-self: center;
+  flex-direction: column;
+  font-size: 0.65em;
+}
+
+#footer-container a {
+  text-decoration: none;
+  color: #0188cc;
+}
+
+#footer-container a:hover {
+  text-decoration: underline;
+}
+
+#row-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#links-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 10px;
+}
+
+#row-two {
+  margin-top: 3px;
+}
